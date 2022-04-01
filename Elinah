@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+   <html>
+      <head>
+         <title> Form </title>
+      </head>
+      <body>
+        <form>
+        <th align="center"><b> Project Management </b></th>
+         <table bgcolor="skyblue" border="0"  cellspacing="10">
+        <tr>
+         <td><label>Project Name</label></td>
+         <td><input type="text" name="pname" value="project name"></td>
+        </tr>
+          <tr> 
+         <td><label>Assigned to</label></td>
+          <td><select><input tpye="text" name="assigned to" value="Er Merry Petision"></select></td>
+        </tr>
+        <tr>
+          <td><label>Start Date</label></td>
+          <td>
+          <span><input tpye="date" name="sdate" value="dd-mm-yyyy"></span>
+          </td>
+        </tr>
+        <tr>
+          <td><label>End Date</label></td>
+          <td><input tpye="date" name="edate" value="dd-mm-yyyy"></label></td>
+        </tr>
+        <tr> 
+          <tr>
+          <td align="left">
+          <label>Priority</label>
+          <td><input type="radio" name="high" id="high"/>
+          High
+          <input type="radio" name=average" id="average"/>
+          Average
+          <input type="radio" name="low" id="low"/>
+          Low
+          </td>
+          </tr>
+          <tr>
+          <td><label>Description</label></td>
+          <td><textarea>
+          </textarea></td>
+          </tr>
+          <tr>
+        <td><label></label></td>
+        <td>
+       <input style="color:green" type="Submit" name="Submit">      
+       <input style="color:blue" type="Submit" name="clear" value="clear">
+        </td>
+       </tr>  
+    </form>  
+    </body>
+    </html>
+    
